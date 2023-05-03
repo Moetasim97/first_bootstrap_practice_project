@@ -1,0 +1,143 @@
+body{
+
+    background-color: white;
+}
+
+.nav-link{
+    position: relative;
+}
+
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+button{
+    border-style: none;
+    font-weight: bold;
+    display: block;
+    font-size: 14px;
+    
+}
+.nav-link::after{
+    position:absolute;
+    bottom: 0;
+    left:0;
+    height: 2px;
+    background-color: darkgray;
+    width: 100%;
+    transition:all 0.2s;
+
+}
+
+.nav-link:hover::after{
+    content:'';
+    
+}
+
+.personal_photo{
+    width: 226px;
+    height: 200px;
+    box-shadow: 0px 0px 0px 10px rgba(128, 128, 128,0.2), 0px 0px 0px 20px rgb(228, 228, 228);
+    margin-bottom: 40px;
+}
+
+.first_section_div{
+    margin-top: 50px;
+}
+.custom_round{
+    border-radius: 50%;
+}
+
+.btn_style{
+    background-color:rgb(104, 224, 184);
+    color: white;
+    width:fit-content;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+
+
+
+.upper_tag{
+    background-color:rgb(104, 224, 184);
+    color: white;
+    font-size: medium;
+    width:fit-content;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px 15px 15px 0;
+}
+
+
+ul {
+    --icon-space: 1.3em;
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding-left: var(--icon-space);
+    font-size: 12px;
+  }
+  
+  li:before {
+   
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+  }
+.first_list_item:before{
+    content: "\f0e0"; /* FontAwesome Unicode */
+    
+}
+
+.second_list_item:before{
+    content: "\f095"; /* FontAwesome Unicode */
+    
+}   
+
+.third_list_item:before{
+    content: "\f041"; /* FontAwesome Unicode */
+    padding-left: 2px;
+}
+ 
+
+.para{
+
+    font-size: 14px;
+    
+}
+
+
+
+.green_bord{
+    border: 0.2em solid aquamarine;
+}
+
+
+.badge{
+    color: black;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.second_section_div{
+    margin-top: 50px;
+}
+
+.second_section_div img{
+    height: 220px;
+    width: 70%;
+}
+
+
