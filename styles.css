@@ -1,0 +1,449 @@
+
+
+
+body{
+
+    background-color: white;
+}
+
+.nav-link{
+    position: relative; 
+}
+
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h3{
+    text-align: center;
+}
+.card-body h3{
+    text-align: start;
+}
+
+button{
+    border-style: none;
+    font-weight: bold;
+    display: block;
+    font-size: 14px;
+    
+}
+
+.flex-column{
+    align-items: start;
+    
+}
+.nav-link::after{
+    position:absolute;
+    bottom: 0;
+    left:0;
+    height: 2px;
+    background-color: darkgray;
+    width: 100%;
+    transition:all 0.2s;
+
+}
+
+.nav-link:hover::after{
+    content:'';
+    
+}
+
+.personal_photo{
+    width: 226px;
+    height: 200px;
+    box-shadow: 0px 0px 0px 10px rgba(128, 128, 128,0.2), 0px 0px 0px 20px rgb(228, 228, 228);
+    margin-bottom: 40px;
+}
+
+.first_section_div{
+    margin-top: 50px;
+}
+.custom_round{
+    border-radius: 50%;
+}
+
+.btn_style{
+    background-color:rgb(104, 224, 184);
+    color: white;
+    width:fit-content;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.aqua{
+    color: aquamarine;
+    text-decoration: wavy;
+}
+
+.fifth_section{
+    background-color: none;
+
+}
+.fifth_section .card h3{
+    text-align: normal;
+}
+
+
+.upper_tag{
+    background-color:rgb(104, 224, 184);
+    color: white;
+    font-size: medium;
+    width:fit-content;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px 15px 15px 0;
+}
+
+
+ul {
+    --icon-space: 1.3em;
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding-left: var(--icon-space);
+    font-size: 12px;
+  }
+  
+  li:before {
+   
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+  }
+.first_list_item:before{
+    content: "\f0e0"; /* FontAwesome Unicode */
+    
+}
+
+.second_list_item:before{
+    content: "\f095"; /* FontAwesome Unicode */
+    
+}   
+
+.third_list_item:before{
+    content: "\f041"; /* FontAwesome Unicode */
+    padding-left: 2px;
+}
+ 
+
+.para{
+
+    font-size: 14px;
+    
+}
+
+
+
+.green_bord{
+    border: 0.2em solid aquamarine;
+}
+
+
+.badge{
+    color: black;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.second_section_div{
+    margin-top: 50px;
+}
+
+.second_picture{
+    background-color: none;
+   
+}
+
+.second_section_div img{
+    height: 220px;
+    width: 70%;
+}
+
+.third_section_div{
+    background-color: none;
+}
+
+@media (max-width:758px) {
+    .flex-column{
+        align-items: center;
+       text-align: center;
+    }
+    footer .col-md-6{
+        text-align: center;
+    }
+
+    .personal_photo{
+        width:150px;
+        height: 150px;
+    }
+
+    .flex-row{
+        flex-direction: column;
+    }
+  }
+
+ 
+
+i{
+    position: absolute;
+    top:20px;
+    left:15px;
+    
+}
+
+.purple_color{
+    color: purple;
+}
+
+.iron_color{
+    color:orange;
+}
+
+.sky_color{
+    color: skyblue;
+}
+
+
+
+.card-body{
+    margin-top: 60px;
+    padding: 2px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.card_shadow{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.sub_title{
+    color: aquamarine;
+    font-size: 1rem;
+}
+
+.card_title{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.price_tag{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.skills{
+    font-weight: bolder;
+    
+
+}
+#last_card{
+    background-color: none;
+}
+
+#last_card p{
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.fifth_section .card-body{
+ 
+        margin:10px;
+        padding: 2px;
+    }
+
+
+   .fifth_section ul{
+    list-style: disc;
+    margin-bottom: 0;
+   }
+
+   li{
+    font-weight: bold;
+    margin-left: 20px;
+  
+   }
+
+   .more_bt{
+    margin-bottom: 29px;
+   }
+
+   .no_bottom{
+    margin-bottom: 1px;
+    font-size: medium;
+   }
+
+  .bt_border{
+    border-bottom: 1px solid aquamarine;
+  }
+
+  .redundant_div{
+    background-color: none;
+    position: static;
+}
+
+.redundant_div .card-body{
+    margin: 0;
+    padding: 0;
+}
+
+.redundant_div .card{
+    margin: 0;
+    padding: 0;
+}
+
+.normalize_fa{
+    background-color: none;
+}
+
+.redundant_div i{
+    position:static;
+    
+   
+}
+
+#nullify_start_align{
+    text-align: center;
+}
+
+#special_title{
+    color: darkgray;
+
+}
+#special_link{
+    text-decoration: none;
+    color: rgb(104, 224, 184);
+    font-size: 1rem;
+
+}
+
+#these_card{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#another_special_card_body{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#ml_left{
+    margin-left: 8rem;
+
+}
+
+.round_border{
+    border-radius: 50%;
+    border: 4px solid aquamarine;
+}
+
+
+
+.cards-wrapper img{
+    width: 120px;
+    height: 120px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cards-wrapper .card{
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
+
+  .cards-wrapper .card-body{
+    margin-top: 5px;
+    padding: 2px;
+    padding-left: 0;
+    margin-bottom: 10px;
+    
+  }
+
+  #customer_card_shadow{
+    box-shadow: rgba(153, 153, 162, 0.2) 0px 7px 29px 0px;
+  }
+
+  .separator_margin{
+    margin-top: 130px;
+  }
+
+  .tenth_section{
+    background-color: none;
+
+  }
+  .tenth_section i{
+    margin: px;
+  }
+
+  .icon_wrapper{
+    
+    width: 80px;
+    height:80px;
+    border: 1px solid aquamarine;
+    position: relative;
+    margin-top: 20px;
+    border-radius: 50%;
+
+  }
+
+  .icon_wrapper i{
+    position: absolute;
+    top:-17px;
+    left: 32px;
+  }
+
+  .tenth_section .card-body{
+    margin-top: 20px;
+  }
+
+  #no_padding{
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  #inputEmail4{
+    margin-bottom: 1rem;
+}
+
+.form-row{
+    display: flex!important;
+}
+
+form .btn_style{
+    width:100%;
+}
+  
+.last_section{
+    background-color: none;
+
+  }
+  .last_section img{
+    width: 100%;
+    height: 80%;
+                    }
+
+
+
+
+
+
